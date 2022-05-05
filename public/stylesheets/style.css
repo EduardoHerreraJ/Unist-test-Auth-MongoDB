@@ -3,13 +3,23 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+h1{
+  text-align: center;
+}
+
 a {
-  color: #00B7FF;
+color: red;
+padding-left: 50%;
+padding-right: 50%;
 }
 
-table th, table td{
-  border: 1px solid #666;
-  padding: 8px;
+table{
+text-align: center;
+border: 1px solid #666;
+padding: 8px;
 }
 
-
+.form-center {
+display:flex;
+justify-content: center;
+}
